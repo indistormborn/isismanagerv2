@@ -4,7 +4,7 @@
     "target": "es2019",
     "sourceMap": true,
     "preserveConstEnums": true,
-    "outDir": "./build/src"
+    "outDir": "./build/"
   },
   "exclude": [
     "node_modules",

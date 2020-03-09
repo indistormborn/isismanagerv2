@@ -1,6 +1,8 @@
-const HttpServer = require('/src/api/HttpServer');
+import * as path from "path";
 
-const config = require('/resources/config.json');
+import { HttpServer } from "./src/api/HttpServer";
+
+const config = require(path.resolve('resources/config.json'));
 
 const server = new HttpServer();
 
